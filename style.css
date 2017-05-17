@@ -1,0 +1,584 @@
+
+@media (min-width: 1024px) { /* desktop */
+  
+  #header { margin: 0 auto; position: relative; width: 920px; }
+  
+  
+}
+
+#header .logo {
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top: 70px;
+  position: relative;
+  width: 560px;
+}
+#header .logo h1 {
+  color: #000;
+  font: bold 11px/15px PTSans,sans-serif;
+  left: 309px;
+  letter-spacing: 0.12em;
+  position: absolute;
+  text-transform: uppercase;
+  top: 27px;
+}
+
+#header .trand {
+
+    
+  background: url("img/pimp/trand_white.png") no-repeat scroll 14px center #000;
+  height: 40px;
+  margin-left: auto;
+  overflow:hidden;
+  padding-left: 27px;
+  padding-right: 73px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#header .trand li { 
+    display: inline-block; 
+    margin-left: 4px; 
+    padding: 0;
+    height: 40px; 
+
+
+}
+#header .trand .trand-title {
+  background-color: #000;
+  color: #fff;
+  font: 14px/25px PTSans,sans-serif;
+  width: 70px;
+}
+
+#header .trand li a {
+  font: bold 14px/25px PTSans, sans-serif; color: #fff; text-transform: uppercase; letter-spacing: 0.08em/*80*/; text-decoration: none;
+  display: inline-block; padding: 9px 10px 0 10px; height: 31px;
+}
+#header .trand li a:hover { border-bottom: 5px solid orange; height: 26px; }
+
+#header .trand {
+  height: 50px;
+  background-color: transparent;
+  background-position: 14px 22px;
+  margin-right: -25px;
+  padding-right: 0;
+  width: auto;
+}
+
+#header .trand-bg {
+  background: #000;
+  width: auto;
+  height: 40px;
+  margin: -60px -25px 16px;
+  position: relative;
+  z-index: -1;  
+}
+
+#header .trand li {
+  height: 50px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+.searcher.input[type=text] {
+    
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.searcher.input[type=text]:focus {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.m_index{
+    background-image:url('images/main_index.jpg');
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+}
+
+.m_space{
+	background-image:url('images/main_space.jpg');
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+ }
+
+/*Esen's part, please do not touch))*/
+.m_robots{
+    background-image:url("images/marsRobots.jpg");
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+}
+
+.m_weapons{
+    background-image:url("images/weaponswallpaper.jpg");
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+}
+
+.m_tesla{
+	background-image:url('images/main_tesla.jpg');
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+   }
+
+.login{
+	background-image:url('images/login.jpg');
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+   }
+
+.loginto{
+    width:200px;
+    height: 200px;
+}
+.log1{
+    font-size: 25px;
+    margin-left: 20%;
+    color: darkorange;
+    text-align: center;
+}
+
+
+.art {
+    background-image:url('images/artback.jpg');
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+}
+
+.Yachtback {
+    background-image:url('images/yachtback.jpg');
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+}
+
+.Bikeback {
+    background-image:url('images/bikeback.jpg');
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+    
+}
+
+.Gadjets {
+    background-image:url('images/gadgedtsback.jpg');
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+}
+
+.Investigation {
+    background-image:url('images/FutureBackground.jpg');
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+    
+}
+
+.scanner {
+    background-image:url('images/scannerback.jpg');
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+}
+
+.braclet {
+     background-image:url('images/bracleteback.jpg');
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+}
+
+.nokia {
+    background-image:url('images/nokiaback.jpg');
+	background-attachment: fixed; 
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    
+    margin-right: 25%; /* Отступ справа */
+    margin-left: 13.95%; /* Отступ слева */
+}
+
+/*MIRLAN*/
+
+
+.panel {
+    
+    margin-left: -2.55%;
+    
+
+    width: 103%;
+    
+    background: white; /* Цвет фона */
+    color: black; /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    text-align: justify; /* Выравнивание по ширине */
+    border-radius:10px; 
+    font-size:large;
+}
+.panel01 {
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 50%;
+    background: white;
+    color: black; /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    text-align: justify; /* Выравнивание по ширине */
+    border-radius:10px; 
+    font-size:large;
+    font: italic 17px PTSans, sans-serif;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+.liniya{
+    margin-left: -1%;
+    width: 101%;
+    background: black;
+    color: black; /* Цвет текста */
+    padding: 3px; /* Поля вокруг текста */
+    text-align: justify; /* Выравнивание по ширине */
+    border-radius:10px; 
+    font-size:large;
+}
+
+.novosti{
+    font: italic 17px PTSans, sans-serif;
+    margin-bottom: 0;
+    margin-top: 3px;
+    margin-left:0%;
+}
+
+.ssilka {
+    color: black; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */  
+   }
+
+.ssilka:visited {
+    color: black; /* Цвет посещённой ссылки */
+}
+
+.ssilka:hover {
+    color: darkorange; /* Цвет ссылки при наведении на нее курсора мыши */  
+}
+
+.novosti .iso img{
+    position: relative; margin-bottom: 0; display: inline-block; width: 270px; height: 390px;
+    display: block;
+    border-radius:10px;
+}
+.novosti_m{
+    font: 17px PTSans, sans-serif;
+    margin-bottom: 0;
+    margin-top: 3px;
+    margin-left: 7px;
+}
+.novosti_m .iso img{
+    
+    position: relative; margin-bottom: 0; display: inline-block; width: 50%; height: 50%;
+    display: block;
+    border-radius:10px;
+    
+}
+
+.isoLog img{
+
+    position: justify; margin-bottom: 0; margin-left: 295px; display: inline-block; width: 300px; height: 200px;
+    display: block;
+    border-radius:10px;
+    
+}
+
+.isoProfile {
+
+    position: justify; margin-bottom: 0; display: inline-block; width: 200px; height: 200px;
+    margin-top: 30px;
+    display: block;
+    border-radius:10px;
+    
+}
+
+.isoGame{
+    position: justify;
+    margin-left: 150px;
+    border-radius:10px;
+    display: inline-block;
+    width: 110px; height: 153px;
+    
+}
+
+.isoGameSnake{
+    position: justify;
+    margin-left: 430px;
+    border-radius:10px;
+    display: inline-block;
+    width: 110px; height: 153px;
+    
+}
+
+.opisanie{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 95%;
+    background: white;
+    color: black; /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    text-align: justify; /* Выравнивание по ширине */
+    border-radius:10px; 
+    font-size:large;
+    font: italic 17px PTSans, sans-serif;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+.reg{
+    margin-left: 340px;
+    
+}
+
+.btn1{
+    
+}
+
+.btn2{
+    margin-left: 127px;
+}
+
+.main_profile{
+    font-family: cursive;
+    font-size: 50px;
+    text-align: left;
+    color: deepskyblue;
+    text-align: center;
+
+}
+
+.logout{
+    font-family: cursive;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    text-align: right;
+
+}
+
+.logout a {
+    color: black; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */  
+   }
+
+.logout a:visited {
+    color: black; /* Цвет посещённой ссылки */
+}
+
+.logout a:hover {
+    color: darkorange; /* Цвет ссылки при наведении на нее курсора мыши */  
+}
+
+.table_profile{
+    padding-bottom: 10px; 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid black;
+    font-size: 19px;
+}
+
+.main_zagalovok{
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    color: darkorange;
+}
+
+.zagalovok{
+    font-size: 50px;
+    text-align: center;
+}
+
+.zagalovok_02{
+    font-size: 35px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.zagalovok_03{
+    font-size: 33px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.zagolovok_04{
+    font-size: 16px;
+    text-align: center;
+    font-family: 
+}
+.or{
+    color:darkorange;
+}
+
+
+.more-link { display: inline-block; height: 40px; font: normal 16px/38px PTSans, sans-serif; color: #333333!important; text-decoration: none; padding-right: 35px; outline: none; background: transparent url('img/button-square.png') no-repeat right top; }
+.more-link > span {opacity: 0.9; padding-left: 25px; display: inline-block; height: 40px; background: white url('img/button-square.png') no-repeat left top; }
+.more-link:hover { background-position: right 0px; }
+.more-link:hover > span {opacity: 1; background-position: left 0px; }
+.more-link, .more-link > span { background: none; padding: 0; }
+.more-link {
+  border: 1px solid #ececec;
+  border-top-color: #f1f1f1;
+  border-bottom-color: #cfcfcf;
+  box-shadow: 0 -3px 2px #fafafa inset;
+  text-align: center;
+  width: auto; display: block;
+}
+
+//Вверх
+
+#top {
+    position: fixed;
+    z-index: 3;
+    left: 10px;
+    bottom: 20px;
+    width: 48px;
+    opacity: .7;
+    text-align: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center 5px;
+    background-image: url(images/up-arrow.jpg);
+    padding: 25px 0 5px;
+    background-color: #333;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 2px;
+    display: none;
+}
+
+//Вверх
+
+
+//Соц сети
+.container {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.container .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container ul {
+  list-style: none;
+}
+
+.container li img {
+  width: 32px;
+  height: 32px;
+}
+
+//Коммент
+blockquote {
+  background: #f9f9f9;
+  border-left: 20px solid deepskyblue;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: deepskyblue;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+
+}
+
+.game1{
+    margin-left: 400px;
+    font-size: 100px;
+}
+
+
+.social{
+    width:60px;
+    height: 1px;
+}
+
